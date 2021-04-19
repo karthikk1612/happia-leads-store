@@ -26,7 +26,7 @@ exports.create = (req, res) => {
         utm_content:req.body.utm_content
     });
 
-    let allowedHosts = ['happia.com', 'localhost', '35.236.5.140','happia-landing-page.herokuapp.com'];
+    let allowedHosts = ['happia.com', 'localhost', '35.236.5.140','happia-landing-page.herokuapp.com','35.222.235.9'];
     let host = req.get('host');
     let validHost = false;
 
